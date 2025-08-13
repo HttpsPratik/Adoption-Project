@@ -1,2 +1,2 @@
-Frontend = React js
-Backend = Django (python)
+Frontend = Typescript
+Backend = Python (Django)

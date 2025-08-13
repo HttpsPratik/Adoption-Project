@@ -129,9 +129,9 @@ REST_FRAMEWORK = {
 
 # CORS settings (for frontend communication)
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # React development server
+    'https://your-netlify-site.netlify.app',  # React development server
     "http://127.0.0.1:3000",
-    "https://your-domain.com",  # Add your production domain
+    "adoptables-blue-haven-production.up.railway.app",  # Add your production domain
 ]
 
 CORS_ALLOW_CREDENTIALS = True
@@ -168,7 +168,7 @@ USE_TZ = True
 
 # Email configuration (for contact forms)
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'  # or your email provider
+EMAIL_HOST = 'smtp.gmail.com' 
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
