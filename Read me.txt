@@ -1,2 +1,0 @@
-Frontend = Typescript
-Backend = Python (Django)
